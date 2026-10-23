@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Developer & Game QA Tester</title>
+  <title>Timmy | Game QA Tester</title>
 
-  <!-- Google Fonts: Inter -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -39,9 +39,6 @@
               blue: '#06b6d4',
               electric: '#6366f1',
             }
-          },
-          backgroundImage: {
-            'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
           }
         }
       }
@@ -49,7 +46,6 @@
   </script>
 
   <style>
-    /* Glow animations and glass effects */
     .glow-card {
       position: relative;
       background: rgba(19, 23, 37, 0.75);
@@ -78,7 +74,6 @@
   <!-- ==================== NAVIGATION ==================== -->
   <header class="sticky top-0 z-50 backdrop-blur-xl bg-charcoal-950/70 border-b border-white/[0.06]">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <!-- Logo -->
       <a href="#" class="text-xl font-bold tracking-tight text-white flex items-center gap-2 group">
         <span class="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-cyan-400 flex items-center justify-center text-white font-black text-sm shadow-lg shadow-purple-500/30 group-hover:scale-105 transition-transform">&lt;/&gt;</span>
         <span>Dev<span class="text-cyan-400">Portfolio</span></span>
@@ -87,7 +82,7 @@
       <!-- Desktop Nav -->
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
         <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
-        <a href="#qa-moderation" class="hover:text-cyan-400 transition-colors">QA & Moderation</a>
+        <a href="#qa-moderation" class="hover:text-cyan-400 transition-colors">QA &amp; Moderation</a>
         <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
         <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
         <a href="#contact" class="hover:text-cyan-400 transition-colors">Contact</a>
@@ -109,7 +104,7 @@
     <!-- Mobile Dropdown -->
     <div id="mobileMenu" class="hidden md:hidden bg-charcoal-900 border-b border-white/10 px-6 py-6 space-y-4">
       <a href="#about" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">About</a>
-      <a href="#qa-moderation" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">QA & Moderation</a>
+      <a href="#qa-moderation" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">QA &amp; Moderation</a>
       <a href="#skills" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">Skills</a>
       <a href="#projects" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">Projects</a>
       <a href="#contact" class="mobile-link block text-gray-300 hover:text-cyan-400 font-medium">Contact</a>
@@ -120,31 +115,27 @@
 
     <!-- ==================== HERO SECTION ==================== -->
     <section class="min-h-[75vh] flex flex-col justify-center items-start pt-6">
-      <!-- Status Badge -->
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-950/60 border border-purple-500/30 text-purple-300 text-xs font-medium mb-6">
         <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-        Available for Development & Game Testing Roles
+        Available for Game QA &amp; Moderation Roles
       </div>
 
-      <!-- Headline -->
       <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-4xl leading-[1.1]">
-        Building polished code &amp; <span class="bg-gradient-to-r from-purple-400 via-indigo-400 to-cyan-400 bg-clip-text text-transparent text-glow">testing games to perfection.</span>
+        Building polished quality &amp; <span class="bg-gradient-to-r from-purple-400 via-indigo-400 to-cyan-400 bg-clip-text text-transparent text-glow">testing games to perfection.</span>
       </h1>
 
-      <!-- Intro -->
       <p class="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl leading-relaxed">
-        Hi, I'm <strong class="text-white font-semibold">Your Name</strong>. I am a passionate developer, active game QA tester, and community moderator dedicated to creating seamless digital experiences and bug-free gameplay.
+        Hi, I'm <strong class="text-white font-semibold">Timmy</strong>. I am an active game QA tester and community moderator dedicated to bug-free gameplay.
       </p>
 
-      <!-- Action Buttons -->
       <div class="mt-10 flex flex-wrap gap-4 items-center">
-        <a href="#projects" class="px-7 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-purple-600 to-cyan-500 text-white shadow-lg shadow-purple-600/30 hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2">
-          <span>Explore Projects</span>
-          <i data-lucide="arrow-right" class="w-4 h-4"></i>
-        </a>
-        <a href="#qa-moderation" class="px-7 py-3.5 rounded-xl font-semibold glow-card text-white hover:text-cyan-400 hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2">
+        <a href="#qa-moderation" class="px-7 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-purple-600 to-cyan-500 text-white shadow-lg shadow-purple-600/30 hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2">
           <span>Game QA Experience</span>
           <i data-lucide="gamepad-2" class="w-4 h-4"></i>
+        </a>
+        <a href="#projects" class="px-7 py-3.5 rounded-xl font-semibold glow-card text-white hover:text-cyan-400 hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2">
+          <span>Explore Projects</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
         </a>
       </div>
     </section>
@@ -156,13 +147,13 @@
         <div class="lg:col-span-6 space-y-6">
           <div class="text-cyan-400 text-xs font-bold uppercase tracking-widest">About Me</div>
           <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-            Bridging technical development and player-ready quality.
+            Bridging game mechanics and player-ready quality.
           </h2>
           <p class="text-gray-400 leading-relaxed">
-            I specialize in software development and structured Quality Assurance testing for games. With an eye for edge-case anomalies, game balance, and community safety, I help development teams turn raw builds into seamless experiences.
+            I specialize in structured Quality Assurance testing for games. With an eye for edge-case anomalies, game balance, and community safety, I help development teams turn raw builds into seamless experiences.
           </p>
           <p class="text-gray-400 leading-relaxed">
-            Beyond coding and testing, I serve as a community moderator, fostering safe, active, and cheat-free game spaces while directly bridging players and dev teams.
+            Beyond QA testing, I serve as a community moderator, fostering safe, active, and cheat-free game spaces while directly bridging players and dev teams.
           </p>
 
           <div class="grid grid-cols-3 gap-4 pt-4">
@@ -190,9 +181,9 @@
                 <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
                 <span class="text-xs text-gray-500 ml-2">portfolio-profile.json</span>
               </div>
-              <p class="text-purple-400"><span class="text-cyan-400">const</span> developer = {</p>
-              <p class="pl-4 text-gray-300">name: <span class="text-emerald-400">"Your Name"</span>,</p>
-              <p class="pl-4 text-gray-300">specialization: [<span class="text-emerald-400">"Frontend"</span>, <span class="text-emerald-400">"Game QA"</span>, <span class="text-emerald-400">"Moderation"</span>],</p>
+              <p class="text-purple-400"><span class="text-cyan-400">const</span> profile = {</p>
+              <p class="pl-4 text-gray-300">name: <span class="text-emerald-400">"Timmy"</span>,</p>
+              <p class="pl-4 text-gray-300">specialization: [<span class="text-emerald-400">"Game QA"</span>, <span class="text-emerald-400">"Moderation"</span>],</p>
               <p class="pl-4 text-gray-300">platforms: [<span class="text-emerald-400">"Roblox"</span>, <span class="text-emerald-400">"Web"</span>, <span class="text-emerald-400">"Discord"</span>],</p>
               <p class="pl-4 text-gray-300">focus: <span class="text-emerald-400">"Delivering zero-bug experiences"</span></p>
               <p class="text-purple-400">};</p>
@@ -203,7 +194,7 @@
       </div>
     </section>
 
-    <!-- ==================== GAME TESTING & MODERATION (SPECIAL SECTION) ==================== -->
+    <!-- ==================== GAME TESTING & MODERATION ==================== -->
     <section id="qa-moderation" class="scroll-mt-24 space-y-10">
       <div>
         <div class="text-cyan-400 text-xs font-bold uppercase tracking-widest">Experience</div>
@@ -217,7 +208,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-        <!-- Card 1: Jump for Animals (Active) -->
+        <!-- Card 1 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
@@ -238,7 +229,7 @@
           </div>
         </div>
 
-        <!-- Card 2: ROB IT (Active) -->
+        <!-- Card 2 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
@@ -259,7 +250,7 @@
           </div>
         </div>
 
-        <!-- Card 3: Break a Brainrot Egg (Moderator) -->
+        <!-- Card 3 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between border-purple-500/30 bg-purple-950/20">
           <div>
             <div class="flex items-center justify-between mb-4">
@@ -280,7 +271,7 @@
           </div>
         </div>
 
-        <!-- Card 4: Anime Rider (Previously Tested) -->
+        <!-- Card 4 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
@@ -301,7 +292,7 @@
           </div>
         </div>
 
-        <!-- Card 5: +1 Speed Folk Escape (Previously Tested) -->
+        <!-- Card 5 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between">
           <div>
             <div class="flex items-center justify-between mb-4">
@@ -322,7 +313,7 @@
           </div>
         </div>
 
-        <!-- Card 6: Your Game Next? -->
+        <!-- Card 6 -->
         <div class="glow-card p-6 rounded-2xl flex flex-col justify-between border-dashed border-cyan-500/30 bg-charcoal-900/40 text-center items-center">
           <div class="flex flex-col items-center justify-center h-full py-4">
             <div class="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-4">
@@ -348,7 +339,7 @@
         <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight mt-1">Skills &amp; Toolset</h2>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
         <!-- QA & Testing Skills -->
         <div class="glow-card p-6 rounded-2xl space-y-4">
@@ -362,21 +353,6 @@
             <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">Stress Testing</span>
             <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">Exploit Auditing</span>
             <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">Edge-case Analysis</span>
-          </div>
-        </div>
-
-        <!-- Development Skills -->
-        <div class="glow-card p-6 rounded-2xl space-y-4">
-          <div class="w-10 h-10 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center">
-            <i data-lucide="code" class="w-5 h-5"></i>
-          </div>
-          <h3 class="text-lg font-bold text-white">Software &amp; Scripting</h3>
-          <p class="text-sm text-gray-400">Writing clean, responsive code and game logic.</p>
-          <div class="flex flex-wrap gap-2 pt-2">
-            <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">JavaScript</span>
-            <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">Luau / Roblox Studio</span>
-            <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">HTML5 &amp; CSS3</span>
-            <span class="px-3 py-1 bg-charcoal-800 rounded-lg text-xs font-medium text-gray-300 border border-white/[0.04]">Git &amp; GitHub</span>
           </div>
         </div>
 
@@ -508,42 +484,42 @@
             <span class="text-cyan-400 text-xs font-bold uppercase tracking-widest">Get In Touch</span>
             <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Let's work together.</h2>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Whether you need an active QA tester for your game, a trustworthy moderator for your community, or a developer for your next project, my inbox is open!
+              Whether you need an active QA tester for your game, a trustworthy moderator for your community, or help with your next project, my inbox is open!
             </p>
 
             <div class="space-y-3 pt-4">
               <!-- Discord -->
-              <a href="https://discord.com" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-purple-950/40 border border-white/[0.05] hover:border-purple-500/40 transition-colors">
+              <a href="https://discord.com/users/" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-purple-950/40 border border-white/[0.05] hover:border-purple-500/40 transition-colors">
                 <i data-lucide="message-square" class="w-5 h-5 text-purple-400"></i>
                 <div>
                   <div class="text-xs text-gray-400">Discord</div>
-                  <div class="text-sm font-semibold text-white">YourDiscord#0000</div>
+                  <div class="text-sm font-semibold text-white">vm1th</div>
                 </div>
               </a>
 
               <!-- Roblox Profile -->
-              <a href="https://www.roblox.com" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-cyan-950/40 border border-white/[0.05] hover:border-cyan-500/40 transition-colors">
+              <a href="https://www.roblox.com/users/profile?username=varid2013" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-cyan-950/40 border border-white/[0.05] hover:border-cyan-500/40 transition-colors">
                 <i data-lucide="gamepad" class="w-5 h-5 text-cyan-400"></i>
                 <div>
                   <div class="text-xs text-gray-400">Roblox Profile</div>
-                  <div class="text-sm font-semibold text-white">@YourRobloxUsername</div>
+                  <div class="text-sm font-semibold text-white">@varid2013</div>
                 </div>
               </a>
 
               <!-- GitHub -->
-              <a href="https://github.com" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-purple-950/40 border border-white/[0.05] hover:border-purple-500/40 transition-colors">
+              <a href="https://github.com/varidaham" target="_blank" rel="noopener" class="flex items-center gap-3 p-3 rounded-xl bg-charcoal-800/80 hover:bg-purple-950/40 border border-white/[0.05] hover:border-purple-500/40 transition-colors">
                 <i data-lucide="github" class="w-5 h-5 text-purple-400"></i>
                 <div>
                   <div class="text-xs text-gray-400">GitHub</div>
-                  <div class="text-sm font-semibold text-white">github.com/yourusername</div>
+                  <div class="text-sm font-semibold text-white">github.com/varidaham</div>
                 </div>
               </a>
             </div>
           </div>
 
-          <!-- Contact Form Placeholder -->
+          <!-- Contact Form -->
           <div class="lg:col-span-7">
-            <form onsubmit="event.preventDefault(); alert('Message sent! (Replace with your Formspree/EmailJS endpoint)');" class="space-y-4">
+            <form onsubmit="event.preventDefault(); alert('Message sent!');" class="space-y-4">
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label class="block text-xs font-medium text-gray-400 mb-1.5">Your Name</label>
@@ -586,7 +562,7 @@
   <!-- ==================== FOOTER ==================== -->
   <footer class="border-t border-white/[0.06] bg-charcoal-950 py-10">
     <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-      <p>&copy; 2026 Your Name. All rights reserved.</p>
+      <p>&copy; 2026 Timmy. All rights reserved.</p>
       <div class="flex items-center gap-6">
         <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
         <a href="#qa-moderation" class="hover:text-cyan-400 transition-colors">QA Experience</a>
@@ -598,10 +574,8 @@
 
   <!-- Scripts -->
   <script>
-    // Initialize Lucide Icons
     lucide.createIcons();
 
-    // Mobile Navigation Toggle
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const mobileMenu = document.getElementById('mobileMenu');
     const mobileLinks = document.querySelectorAll('.mobile-link');
